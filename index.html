@@ -121,6 +121,34 @@
       font-weight: 700;
     }
 
+    /* 🔥 방문자 수 카운터 위젯 */
+    .visitor-badge-group {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid var(--border-light);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .visitor-badge-group .v-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .visitor-badge-group .v-item strong {
+      color: var(--primary-cyan);
+      font-weight: 700;
+    }
+
+    .visitor-badge-group .v-sep {
+      color: var(--text-dim);
+    }
+
     /* 🔥 본 사이트 유입 CTA 버튼 */
     .btn-cta-main {
       background: linear-gradient(135deg, var(--primary-blue), #0052d4);
@@ -333,6 +361,20 @@
         </a>
         <span class="logo-badge">by ztrade.co.kr</span>
       </div>
+
+      <!-- 📊 방문자 수 카운터 위젯 -->
+      <div class="visitor-badge-group">
+        <div class="v-item">
+          <i class="fa-solid fa-user-check" style="color: var(--primary-cyan);"></i>
+          <span>오늘 방문: <strong id="todayCount">-</strong>명</span>
+        </div>
+        <span class="v-sep">|</span>
+        <div class="v-item">
+          <i class="fa-solid fa-chart-pie" style="color: var(--primary-blue);"></i>
+          <span>누적 방문: <strong id="totalCount">-</strong>명</span>
+        </div>
+      </div>
+
       <a href="https://ztrade.co.kr" target="_blank" class="btn-cta-main">
         <span>ztrade.co.kr 바로가기</span>
         <i class="fa-solid fa-arrow-right"></i>
@@ -397,6 +439,7 @@
     let reportsData = [];
 
     window.addEventListener('DOMContentLoaded', async () => {
+      initVisitorCounter();
       try {
         const res = await fetch('docs/reports_manifest.json');
         if (res.ok) {
@@ -412,6 +455,31 @@
         renderReportList([]);
       }
     });
+
+    // 📊 방문자 카운터 API (일간 / 누적 카운터)
+    async function initVisitorCounter() {
+      const todayStr = new Date().toISOString().split('T')[0];
+      const namespace = "golferhandbook-hue-exi-terminal";
+      try {
+        const todayRes = await fetch(`https://api.counterapi.dev/v1/${namespace}/today_${todayStr}/up`);
+        if (todayRes.ok) {
+          const data = await todayRes.json();
+          document.getElementById('todayCount').innerText = data.count ? data.count.toLocaleString() : '1';
+        }
+      } catch (e) {
+        document.getElementById('todayCount').innerText = '1';
+      }
+
+      try {
+        const totalRes = await fetch(`https://api.counterapi.dev/v1/${namespace}/total/up`);
+        if (totalRes.ok) {
+          const data = await totalRes.json();
+          document.getElementById('totalCount').innerText = data.count ? data.count.toLocaleString() : '100+';
+        }
+      } catch (e) {
+        document.getElementById('totalCount').innerText = '100+';
+      }
+    }
 
     function renderReportList(list) {
       const listEl = document.getElementById('reportList');
