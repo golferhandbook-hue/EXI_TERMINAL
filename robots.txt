@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Yeti
+Allow: /
+
+Sitemap: https://ticker-x.ztrade.co.kr/sitemap.xml
+Sitemap: https://golferhandbook-hue.github.io/EXI_TERMINAL/sitemap.xml
