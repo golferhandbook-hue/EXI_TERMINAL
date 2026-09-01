@@ -1,5 +1,18 @@
 [
   {
+    "code": "064400",
+    "name": "LG씨엔에스",
+    "market": "KOSPI",
+    "date": "2026-09-01",
+    "path": "docs/reports/2026-09-01_064400_LG씨엔에스.md",
+    "summary": "LG씨엔에스(064400) LG씨엔에스의 최근 30일간의 주가 흐름-시세,나이프-편향/ال/al/ال/al/ال/al/",
+    "opinion": "분할매수",
+    "tags": [
+      "PER 16.71배",
+      "KOSPI"
+    ]
+  },
+  {
     "code": "하이닉스",
     "name": "하이닉스",
     "market": "KOSPI",
