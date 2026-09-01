@@ -4,19 +4,28 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <!-- 🔍 SEO 최적화 기본 메타 태그 -->
+  <!-- 🔍 Google & 검색엔진 최적화 (SEO) 메타 태그 -->
   <title>Ticker-X AI | ztrade.co.kr 주식 퀀트 분석 & 일자별 AI 종목 리포트</title>
-  <meta name="description" content="ztrade.co.kr의 Ticker-X AI 엔진이 매일 자동 생성하는 국내 주식 일자별 AI 종합 분석 결과 리포트, 30일 퀀트 기술 지표 및 수급 인사이트를 확인하세요." />
-  <meta name="keywords" content="ztrade, ztrade.co.kr, ticker-x, 주식 AI 리포트, AI 종목 분석, 퀀트 주식 데이터, 일자별 분석, 주식 기술적 분석" />
+  <meta name="description" content="ztrade.co.kr의 Ticker-X AI 엔진이 매일 자동 발행하는 국내 상장기업 30일 시세, 5대 퀀트 기술지표, 수급 및 실적 펀더멘털 종합 AI 분석 리포트 아카이브." />
+  <meta name="keywords" content="ztrade, ztrade.co.kr, ticker-x, 주식 AI 리포트, AI 종목 분석, 퀀트 주식 데이터, 일자별 분석, 주식 기술적 분석, 볼린저밴드, RSI, MACD, 수급분석, 삼성전자, SK하이닉스" />
   <meta name="author" content="ztrade.co.kr Ticker-X" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
   <link rel="canonical" href="https://ticker-x.ztrade.co.kr/" />
 
-  <!-- 🌐 Open Graph / SNS 공유 SEO 카드 -->
+  <!-- 🌐 Open Graph / SNS 공유 SEO 카드 (카카오톡, 페이스북 등) -->
+  <meta property="og:locale" content="ko_KR" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://ticker-x.ztrade.co.kr/" />
   <meta property="og:site_name" content="ztrade.co.kr Ticker-X AI" />
   <meta property="og:title" content="Ticker-X AI | 주식 퀀트 분석 & 일자별 종목 리포트 아카이브" />
-  <meta property="og:description" content="ztrade.co.kr Ticker-X AI가 매일 발행하는 전문 주식 분석 리포트 및 퀀트 데이터" />
+  <meta property="og:description" content="ztrade.co.kr Ticker-X AI가 매일 자동 발행하는 전문 주식 분석 리포트 및 5대 퀀트 기술 데이터" />
+  <meta property="og:image" content="https://ticker-x.ztrade.co.kr/og-image.png" />
+
+  <!-- 🐦 Twitter SEO Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Ticker-X AI | 주식 퀀트 분석 & 일자별 AI 종목 리포트" />
+  <meta name="twitter:description" content="대한민국 상장기업 일자별 실시간 AI 퀀트 분석 및 30일 시세 종합 아카이브" />
+  <meta name="twitter:image" content="https://ticker-x.ztrade.co.kr/og-image.png" />
   
   <!-- 구글 폰트 & 폰트어썸 아이콘 -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,19 +36,42 @@
   <!-- Markdown 렌더링 라이브러리 -->
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
-  <!-- 💡 JSON-LD 검색엔진 구조화 데이터 -->
+  <!-- 💡 Google Rich Snippets Schema.org JSON-LD 구조화 데이터 -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "ztrade.co.kr Ticker-X AI Reports",
-    "url": "https://golferhandbook-hue.github.io/EXI_TERMINAL/",
-    "description": "ztrade.co.kr Ticker-X AI 엔진 기반 일자별 주식 분석 리포트",
-    "publisher": {
-      "@type": "Organization",
-      "name": "ztrade.co.kr",
-      "url": "https://ztrade.co.kr"
-    }
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://ticker-x.ztrade.co.kr/#website",
+        "url": "https://ticker-x.ztrade.co.kr/",
+        "name": "Ticker-X AI 주식 퀀트 리포트",
+        "description": "ztrade.co.kr Ticker-X AI 엔진 기반 국내 상장사 일자별 AI 퀀트 분석 리포트",
+        "publisher": {
+          "@type": "Organization",
+          "name": "ztrade.co.kr",
+          "url": "https://ztrade.co.kr"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://ticker-x.ztrade.co.kr/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "CollectionPage",
+        "@id": "https://ticker-x.ztrade.co.kr/#collection",
+        "url": "https://ticker-x.ztrade.co.kr/",
+        "name": "Ticker-X AI 일자별 종목 분석 아카이브",
+        "isPartOf": {
+          "@id": "https://ticker-x.ztrade.co.kr/#website"
+        },
+        "about": {
+          "@type": "FinancialProduct",
+          "name": "Korean Stock AI Quantitative Analysis"
+        }
+      }
+    ]
   }
   </script>
 
@@ -729,6 +761,24 @@
   </style>
 </head>
 <body>
+
+  <!-- 🤖 검색엔진 크롤러(Googlebot, Naver Yeti)용 NoScript SEO 텍스트 아카이브 -->
+  <noscript>
+    <div style="padding: 20px; background: #fff; color: #333; max-width: 1200px; margin: 0 auto;">
+      <h1>Ticker-X AI 주식 퀀트 분석 & 종목 리포트 아카이브 - ztrade.co.kr</h1>
+      <p>ztrade.co.kr의 Ticker-X 인공지능 주식 분석 시스템이 매일 실시간으로 생성하는 대한민국 코스피(KOSPI) 및 코스닥(KOSDAQ) 상장기업의 30일 시세 동향, 5대 퀀트 기술지표(RSI, 볼린저 밴드, MACD, 이격도, 모멘텀), 외국인 및 기관 수급 동향, 4개 분기 실적 펀더멘털 분석 종합 리포트 아카이브입니다.</p>
+      <h2>주요 분석 종목 리스트</h2>
+      <ul>
+        <li>삼성전자(005930) 일자별 AI 종합 분석 리포트</li>
+        <li>SK하이닉스(000660) 일자별 AI 종합 분석 리포트</li>
+        <li>LG에너지솔루션(373220) 일자별 AI 종합 분석 리포트</li>
+        <li>현대차(005380) 일자별 AI 종합 분석 리포트</li>
+        <li>두산에너빌리티(034020) 일자별 AI 종합 분석 리포트</li>
+        <li>레메디(387690), 씨어스(458870), 에스오에스랩, 펄어비스, 클래시스 등 코스닥 성장주 분석</li>
+      </ul>
+      <p>본 사이트의 모든 리포트는 <a href="https://ztrade.co.kr">ztrade.co.kr</a> Ticker-X AI 퀀트 엔진에서 자동 생성되어 실시간 발행됩니다.</p>
+    </div>
+  </noscript>
 
   <!-- 🏛️ 1. 대형 탑 헤더 타이틀 -->
   <header class="top-brand-header">
