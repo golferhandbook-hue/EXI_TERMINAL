@@ -486,6 +486,60 @@
       color: #0f172a;
     }
 
+    /* 📄 페이지네이션 스타일 */
+    .pagination-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 6px;
+      margin: 2.5rem 0 1rem;
+      flex-wrap: wrap;
+    }
+
+    .pagination-btn {
+      background: #ffffff;
+      border: 1.5px solid var(--border-color);
+      color: var(--text-body);
+      font-size: 0.88rem;
+      font-weight: 600;
+      min-width: 40px;
+      height: 40px;
+      padding: 0 14px;
+      border-radius: var(--radius-md);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .pagination-btn:hover:not(:disabled) {
+      border-color: #0284c7;
+      color: #0284c7;
+      background: #f0f9ff;
+      transform: translateY(-1px);
+    }
+
+    .pagination-btn.active {
+      background: #0284c7;
+      border-color: #0284c7;
+      color: #ffffff;
+      box-shadow: 0 4px 12px rgba(2, 132, 199, 0.25);
+    }
+
+    .pagination-btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    .pagination-ellipsis {
+      color: var(--text-muted);
+      font-weight: 700;
+      padding: 0 6px;
+    }
+
     /* 🪟 리포트 상세 모달 (Modal Viewer) */
     .modal-overlay {
       position: fixed;
@@ -893,7 +947,7 @@
       if (!nav) {
         nav = document.createElement('div');
         nav.id = 'paginationNav';
-        nav.style.cssText = 'display: flex; justify-content: center; align-items: center; gap: 8px; margin: 2.5rem 0 1rem; flex-wrap: wrap;';
+        nav.className = 'pagination-wrapper';
         document.querySelector('.main-content-layout').appendChild(nav);
       }
 
@@ -903,21 +957,17 @@
       }
 
       let html = '';
-      if (currentPage > 1) {
-        html += `<button class="quick-chip" onclick="goToPage(${currentPage - 1})"><i class="fa-solid fa-chevron-left"></i> 이전</button>`;
-      }
+      html += `<button class="pagination-btn" ${currentPage === 1 ? 'disabled' : ''} onclick="goToPage(${currentPage - 1})"><i class="fa-solid fa-chevron-left"></i> 이전</button>`;
 
       for (let p = 1; p <= totalPages; p++) {
         if (p === 1 || p === totalPages || (p >= currentPage - 2 && p <= currentPage + 2)) {
-          html += `<button class="quick-chip ${p === currentPage ? 'active' : ''}" onclick="goToPage(${p})">${p}</button>`;
+          html += `<button class="pagination-btn ${p === currentPage ? 'active' : ''}" onclick="goToPage(${p})">${p}</button>`;
         } else if (p === currentPage - 3 || p === currentPage + 3) {
-          html += `<span style="color: #94a3b8; padding: 0 4px;">...</span>`;
+          html += `<span class="pagination-ellipsis">...</span>`;
         }
       }
 
-      if (currentPage < totalPages) {
-        html += `<button class="quick-chip" onclick="goToPage(${currentPage + 1})">다음 <i class="fa-solid fa-chevron-right"></i></button>`;
-      }
+      html += `<button class="pagination-btn" ${currentPage === totalPages ? 'disabled' : ''} onclick="goToPage(${currentPage + 1})">다음 <i class="fa-solid fa-chevron-right"></i></button>`;
 
       nav.innerHTML = html;
     }
