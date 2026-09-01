@@ -3,19 +3,55 @@
   <url>
     <loc>https://ticker-x.ztrade.co.kr/</loc>
     <lastmod>2026-09-01</lastmod>
-    <changefreq>daily</changefreq>
+    <changefreq>hourly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://ticker-x.ztrade.co.kr/docs/reports/2026-09-01_267260_HD현대일렉트릭.md</loc>
+    <loc>https://ticker-x.ztrade.co.kr/?code=068270&amp;date=2026-09-01</loc>
     <lastmod>2026-09-01</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ticker-x.ztrade.co.kr/docs/reports/2026-09-01_000660_SK하이닉스.md</loc>
+    <loc>https://ticker-x.ztrade.co.kr/?code=035420&amp;date=2026-09-01</loc>
     <lastmod>2026-09-01</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ticker-x.ztrade.co.kr/?code=009150&amp;date=2026-09-01</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ticker-x.ztrade.co.kr/?code=298040&amp;date=2026-09-01</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ticker-x.ztrade.co.kr/?code=005930&amp;date=2026-09-01</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ticker-x.ztrade.co.kr/?code=064400&amp;date=2026-09-01</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ticker-x.ztrade.co.kr/?code=267260&amp;date=2026-09-01</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ticker-x.ztrade.co.kr/?code=000660&amp;date=2026-09-01</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
 </urlset>
