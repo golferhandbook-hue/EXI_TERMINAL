@@ -1,5 +1,18 @@
 [
   {
+    "code": "006400",
+    "name": "삼성SDI",
+    "market": "KOSPI",
+    "date": "2026-09-01",
+    "path": "docs/reports/2026-09-01_006400_삼성SDI.md",
+    "summary": "삼성SDI(006400)는 최근 30일간 상승 추세가 뚜렷-록로 나타나는 정배열 상태를正TELL-록스고 있습니다. 현재가 569,",
+    "opinion": "분할매수",
+    "tags": [
+      "PER -68.35배",
+      "KOSPI"
+    ]
+  },
+  {
     "code": "347850",
     "name": "디앤디파마텍",
     "market": "KOSDAQ",
