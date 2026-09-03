@@ -1,5 +1,18 @@
 [
   {
+    "code": "000660",
+    "name": "SK하이닉스",
+    "market": "KOSPI",
+    "date": "2026-09-03",
+    "path": "docs/reports/2026-09-03_000660_SK하이닉스.md",
+    "summary": "SK하이닉스(000660)는 최근 30일간의 주가 흐름과 수급 상황을  none-none",
+    "opinion": "분할매수",
+    "tags": [
+      "PER 27.78배",
+      "KOSPI"
+    ]
+  },
+  {
     "code": "096770",
     "name": "SK이노베이션",
     "market": "KOSPI",
