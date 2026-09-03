@@ -1,5 +1,18 @@
 [
   {
+    "code": "003690",
+    "name": "코리안리",
+    "market": "KOSPI",
+    "date": "2026-09-03",
+    "path": "docs/reports/2026-09-03_003690_코리안리.md",
+    "summary": "코리안리는 현재 단기 상승 추세가 강화-변동성 확대 국면면입니다. 최근 bit/스프레드 spread/스프레드(spread)의 변",
+    "opinion": "분할매수",
+    "tags": [
+      "PER 9.36배",
+      "KOSPI"
+    ]
+  },
+  {
     "code": "257720",
     "name": "실리콘투",
     "market": "KOSDAQ",
