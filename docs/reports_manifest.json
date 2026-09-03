@@ -1,5 +1,18 @@
 [
   {
+    "code": "060250",
+    "name": "NHN KCP",
+    "market": "KOSDAQ",
+    "date": "2026-09-03",
+    "path": "docs/reports/2026-09-03_060250_NHN KCP.md",
+    "summary": "NHN KCP(060250)는 최근 3 de약 30일간의 주가 흐름-스케줄-수급-재무 융합-스표. NHN KCP의의의",
+    "opinion": "분할매수",
+    "tags": [
+      "PER 12.90배",
+      "KOSDAQ"
+    ]
+  },
+  {
     "code": "051160",
     "name": "지어소프트",
     "market": "KOSDAQ",
