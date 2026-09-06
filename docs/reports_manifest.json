@@ -1,5 +1,18 @@
 [
   {
+    "code": "001440",
+    "name": "대한전선",
+    "market": "KOSPI",
+    "date": "2026-09-06",
+    "path": "docs/reports/2026-09-06_001440_대한전선.md",
+    "summary": "대한전선(001440) 대한전선의 30일 주가 흐름을 최근 30일 20일 이동평균선을 하회하는로te de la de",
+    "opinion": "분할매수",
+    "tags": [
+      "PER 60.62배",
+      "KOSPI"
+    ]
+  },
+  {
     "code": "009150",
     "name": "삼성전기",
     "market": "KOSPI",
