@@ -1,5 +1,18 @@
 [
   {
+    "code": "005930",
+    "name": "삼성전자",
+    "market": "KOSPI",
+    "date": "2026-09-07",
+    "path": "docs/reports/2026-09-07_005930_삼성전자.md",
+    "summary": "삼성전자(005930)의 최근 30일간의 주가 흐름은 저점 대비 약 42.7% 급등격동로를 <tr><td></td></tr>률을 기록하며 강력한    of text.",
+    "opinion": "분할매수",
+    "tags": [
+      "PER 41.13배",
+      "KOSPI"
+    ]
+  },
+  {
     "code": "089030",
     "name": "테크윙",
     "market": "KOSDAQ",
