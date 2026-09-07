@@ -1,5 +1,18 @@
 [
   {
+    "code": "005380",
+    "name": "현대차",
+    "market": "KOSPI",
+    "date": "2026-09-07",
+    "path": "docs/reports/2026-09-07_005380_현대차.md",
+    "summary": "현대차(005380)는 최근 30일간 주가 흐름-스스로고점 대비 -14.",
+    "opinion": "분할매수",
+    "tags": [
+      "PER 11.12배",
+      "KOSPI"
+    ]
+  },
+  {
     "code": "005290",
     "name": "동진쎄미켐",
     "market": "KOSDAQ",
