@@ -1,5 +1,18 @@
 [
   {
+    "code": "108320",
+    "name": "LX세미콘",
+    "market": "KOSPI",
+    "date": "2026-09-09",
+    "path": "docs/reports/2026-09-09_108320_LX세미콘.md",
+    "summary": "LX세미콘(108320) LX세미콘의 최근 lyon-30일 주가 흐로스액션-",
+    "opinion": "분할매수",
+    "tags": [
+      "PER 7.10배",
+      "KOSPI"
+    ]
+  },
+  {
     "code": "090710",
     "name": "휴림로봇",
     "market": "KOSDAQ",
