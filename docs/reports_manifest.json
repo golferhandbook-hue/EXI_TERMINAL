@@ -1,5 +1,18 @@
 [
   {
+    "code": "402340",
+    "name": "SK스퀘어",
+    "market": "KOSPI",
+    "date": "2026-09-09",
+    "path": "docs/reports/2026-09-09_402340_SK스퀘어.md",
+    "summary": "SK스퀘어(402340)에 대한 최근 . and 30일간의 정량적 .",
+    "opinion": "분할매수",
+    "tags": [
+      "PER 17.12배",
+      "KOSPI"
+    ]
+  },
+  {
     "code": "247540",
     "name": "에코프로비엠",
     "market": "KOSDAQ",
