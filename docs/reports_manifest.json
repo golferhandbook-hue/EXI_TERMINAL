@@ -1,5 +1,18 @@
 [
   {
+    "code": "217590",
+    "name": "티엠씨",
+    "market": "KOSPI",
+    "date": "2026-09-09",
+    "path": "docs/reports/2026-09-09_217590_티엠씨.md",
+    "summary": "티엠씨(217590)에 대한 최근 의사결정 데이터 분석 결과, 현재 주가는 고점 대비 약 -26.3% 하락ing로 인해 단기 역배열 상태를𝑌<0xA0>Shards-based",
+    "opinion": "분할매수",
+    "tags": [
+      "PER -501.82배",
+      "KOSPI"
+    ]
+  },
+  {
     "code": "181710",
     "name": "NHN",
     "market": "KOSPI",
