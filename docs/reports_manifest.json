@@ -1,5 +1,18 @@
 [
   {
+    "code": "086520",
+    "name": "에코프로",
+    "market": "KOSDAQ",
+    "date": "2026-09-09",
+    "path": "docs/reports/2026-09-09_086520_에코프로.md",
+    "summary": "에코프로(086520)에 대한 최근 30일간의 정량 데이터 분석 결과, 주가는 현재 86,800원으로 현재가와 현재가 대비 고점과의 괴리율은서로 다른  personallyken_score: 75,",
+    "opinion": "분할매수",
+    "tags": [
+      "PER -78.69배",
+      "KOSDAQ"
+    ]
+  },
+  {
     "code": "082920",
     "name": "비츠로셀",
     "market": "KOSDAQ",
