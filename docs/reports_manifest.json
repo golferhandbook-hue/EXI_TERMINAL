@@ -1,5 +1,18 @@
 [
   {
+    "code": "043260",
+    "name": "성호전자",
+    "market": "KOSDAQ",
+    "date": "2026-09-09",
+    "path": "docs/reports/2026-09-09_043260_성호전자.md",
+    "summary": "성호전자는 현재 18,440원의 현재가, 20일 이동평균선을 상회하는",
+    "opinion": "분할매수",
+    "tags": [
+      "PER 13.75배",
+      "KOSDAQ"
+    ]
+  },
+  {
     "code": "033160",
     "name": "엠케이전자",
     "market": "KOSDAQ",
