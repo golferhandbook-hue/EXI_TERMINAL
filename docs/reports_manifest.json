@@ -1,5 +1,18 @@
 [
   {
+    "code": "005380",
+    "name": "현대차",
+    "market": "KOSPI",
+    "date": "2026-09-10",
+    "path": "docs/reports/2026-09-10_005380_현대차.md",
+    "summary": "현대차(005380)에 대한 최근 30일간의 시세, 시황-수급 flows, . No. 현대차는 현재 .",
+    "opinion": "분할매수",
+    "tags": [
+      "PER 11.01배",
+      "KOSPI"
+    ]
+  },
+  {
     "code": "003010",
     "name": "혜인",
     "market": "KOSPI",
