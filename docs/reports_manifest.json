@@ -1,5 +1,18 @@
 [
   {
+    "code": "028050",
+    "name": "삼성E&A",
+    "market": "KOSPI",
+    "date": "2026-09-13",
+    "path": "docs/reports/2026-09-13_028050_삼성E&A.md",
+    "summary": "삼성E&A(028050) 삼성E&A의 최근 lyon-30일 주가 흐로스액션-lyon-30일 주가 흐름을 정량적으로",
+    "opinion": "분할매수",
+    "tags": [
+      "PER 16.19배",
+      "KOSPI"
+    ]
+  },
+  {
     "code": "025560",
     "name": "미래산업",
     "market": "KOSPI",
