@@ -1,5 +1,18 @@
 [
   {
+    "code": "032640",
+    "name": "LG유플러스",
+    "market": "KOSPI",
+    "date": "2026-09-14",
+    "path": "docs/reports/2026-09-14_032640_LG유플러스.md",
+    "summary": "LG유플러스(032640) LG유플러스의 최근 lyon-30일간의 주가 흐록록록",
+    "opinion": "분할매수",
+    "tags": [
+      "PER 12.38배",
+      "KOSPI"
+    ]
+  },
+  {
     "code": "030200",
     "name": "KT",
     "market": "KOSPI",
