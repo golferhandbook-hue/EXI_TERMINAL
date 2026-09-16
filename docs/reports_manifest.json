@@ -1,5 +1,18 @@
 [
   {
+    "code": "033780",
+    "name": "KT&G",
+    "market": "KOSPI",
+    "date": "2026-09-16",
+    "path": "docs/reports/2026-09-16_033780_KT&G.md",
+    "summary": "KT&G(033780)에 대한 최근 30일간의 정량 데이터 분석 결과, 주가는 현재 단기 역배열 상태를singling-out",
+    "opinion": "분할매수",
+    "tags": [
+      "PER 19.14배",
+      "KOSPI"
+    ]
+  },
+  {
     "code": "033160",
     "name": "엠케이전자",
     "market": "KOSDAQ",
