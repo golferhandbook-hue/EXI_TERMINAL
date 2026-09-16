@@ -1,5 +1,18 @@
 [
   {
+    "code": "009150",
+    "name": "삼성전기",
+    "market": "KOSPI",
+    "date": "2026-09-16",
+    "path": "docs/reports/2026-09-16_009150_삼성전기.md",
+    "summary": "삼성전기는 현재 단기 눌림목 조정 국면을로써, 이동평도선의 배열이 이동평균선 하회를이로써teens-years",
+    "opinion": "분할매수",
+    "tags": [
+      "PER 150.79배",
+      "KOSPI"
+    ]
+  },
+  {
     "code": "007660",
     "name": "이수페타시스",
     "market": "KOSPI",
