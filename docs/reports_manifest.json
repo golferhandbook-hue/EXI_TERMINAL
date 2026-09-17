@@ -1,5 +1,18 @@
 [
   {
+    "code": "086520",
+    "name": "에코프로",
+    "market": "KOSDAQ",
+    "date": "2026-09-17",
+    "path": "docs/reports/2026-09-17_086520_에코프로.md",
+    "summary": "에코프로(086520) 에 대한 최근 며, 30일간의 주가 추세 배열(MA5 < MA20 < MA",
+    "opinion": "분할매수",
+    "tags": [
+      "PER -74.89배",
+      "KOSDAQ"
+    ]
+  },
+  {
     "code": "080220",
     "name": "제주반도체",
     "market": "KOSDAQ",
