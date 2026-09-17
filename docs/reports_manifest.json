@@ -1,5 +1,18 @@
 [
   {
+    "code": "097230",
+    "name": "HJ중공업",
+    "market": "KOSPI",
+    "date": "2026-09-17",
+    "path": "docs/reports/2026-09-17_097230_HJ중공업.md",
+    "summary": "HJ중공업(097230)은 최근 30일간 주가 흐름을 살펴보면 고점 대비 약 -15.6% 괴리를 나타내  pattern",
+    "opinion": "분할매수",
+    "tags": [
+      "PER 25.93배",
+      "KOSPI"
+    ]
+  },
+  {
     "code": "089970",
     "name": "브이엠",
     "market": "KOSDAQ",
