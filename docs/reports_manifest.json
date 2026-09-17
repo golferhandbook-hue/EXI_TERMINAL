@@ -1,5 +1,18 @@
 [
   {
+    "code": "222080",
+    "name": "SFA넥셀",
+    "market": "KOSDAQ",
+    "date": "2026-09-17",
+    "path": "docs/reports/2026-09-17_222080_SFA넥셀.md",
+    "summary": "SFA넥셀(222080)은 현재 단기 역배열 상태를𝑌: 보조이지표가 보입니다. 보조이지표가 보입니다.",
+    "opinion": "분할매수",
+    "tags": [
+      "PER 20.57배",
+      "KOSDAQ"
+    ]
+  },
+  {
     "code": "189330",
     "name": "씨이랩",
     "market": "KOSDAQ",
